@@ -12,9 +12,9 @@ jobs:
     permissions:
       contents: write
     steps:
-      uses: lowlighter/metrics@latest
+uses: lowlighter/metrics@latest
 with:
   template: terminal
-  filename: github-metrics.svg
+  filename: metrics.terminal.svg
   token: ${{ secrets.METRICS_TOKEN }}
   base: header, metadata
