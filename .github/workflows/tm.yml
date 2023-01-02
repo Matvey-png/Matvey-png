@@ -17,4 +17,4 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           template: terminal
           base: header, metadata
-          filename: github-metrics.svg
+          filename: free_fire_hack.svg
